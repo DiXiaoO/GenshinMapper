@@ -1,5 +1,9 @@
 #Made by DiXiao
+import os
 from PIL import Image
+
+if not os.path.exists("outChasm"):
+    os.makedirs("outChasm")
 
 SIZE = 1024
 

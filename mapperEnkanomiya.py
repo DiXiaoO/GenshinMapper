@@ -1,5 +1,9 @@
 #Made by DiXiao
+import os
 from PIL import Image
+
+if not os.path.exists("outEnkanomiya"):
+    os.makedirs("outEnkanomiya")
 
 SIZE = 1024
 

@@ -1,5 +1,9 @@
 #Made by DiXiao
+import os
 from PIL import Image
+
+if not os.path.exists("outWorld"):
+    os.makedirs("outWorld")
 
 SIZE = 1024
 
